@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+    <style>
+      body {
+        background-color: #000000;
+      }
+
+      table, tr, th, td{
+        border: solid 1px white;
+        border-collapse: collapse;
+        padding: 8px;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: #ffffff;
+      }
+
+      p {
+      font-family: 'Noto Sans KR', sans-serif;
+      color: #ffffff;
+      }
+
+      #topMenu {
+                    height: 30px;
+                    width: 850px;
+            }
+
+            #topMenu ul li {
+                    list-style: none;
+                    color: white;
+                    background-color: ##000000;
+                    float: left;
+                    line-height: 30px;
+                    vertical-align: middle;
+                    text-align: center;
+            }
+
+            #topMenu .menuLink {
+                    text-decoration:none;
+                    color: white;
+                    display: block;
+                    width: 150px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-family: 'Noto Sans KR', sans-serif;
+            }
+            #topMenu .menuLink:hover {
+                    color: #0852d4;
+                    background-color: #3c3c3c;
+            }
+            h3 {
+              font-family: 'Noto Sans KR', sans-serif;
+              color: #ffffff;
+            }
+    </style>
+    <title>WELCOME TO MY UNIVERSE</title>
+  </head>
+  <body>
+    <center>
+<a href="./main.html"><img src="./titleunmouse.png" onmouseover="this.src='./titleonmouse.png';" onmouseout="this.src='./titleunmouse.png';" alt="설명" title="타이틀" /></a>
+    </center>
+    <center>
+      <nav id="topMenu" >
+      		<ul>
+      			<li><a class="menuLink" href="./profile.html">HYUNMIN</a></li>
+      			<li>|</li>
+      			<li><a class="menuLink" href="./design.html">DESIGNER</a></li>
+      			<li>|</li>
+      			<li><a class="menuLink" href="./film.html">DREAMER</a></li>
+      			<li>|</li>
+      			<li><a class="menuLink" href="./sports.html">SUPPORTER</a></li>
+      			<li>|</li>
+      			<li><a class="menuLink" href="./guestbook.html">SAY HELLO TO ME</a></li>
+      		</ul>
+      	</nav>
+    </center>
+    <center>
+      <p><h3 align="center"> SAY HELLO TO ME </h3>
+  <table align="center"border="3">
+ <tr>
+  <td> 이름 </td>
+  <td> <input type="text" name="writer" size="55"> </td>
+  <td> PW </td>
+  <td> <input type="password" name="pw"> </td>
+ </tr>
+ <tr>
+  <td> 이메일 </td>
+  <td> <input type="text" name="email" size="35"> @
+  <select>
+   <option> naver.com </option>
+   <option> gmail.com </option>
+   <option> daum.net </option>
+   <option> hanmail.net </option>
+   <option> nate.com </option>
+  </select> </td>
+  <td> <img src="./lock.png" width="30" alt=""> </td>
+  <td> <input type="radio" name="protect"> 공개  <input type="radio" name="protect"> 비공개</td>
+ </tr>
+ <tr>
+  <td> 제목 </td>
+  <td colspan="4"> <input type="text" size="82"> </td>
+ </tr>
+ <tr>
+  <td> 내용 </td>
+  <td colspan="4"> <textarea cols="80" rows="20"></textarea> </td>
+ </tr>
+  </table>
+<center>
+ <input type="submit" value="확인">
+ <input type="reset" value="취소">
+</center>
+</p>
+    </center>
+  </body>
+</html>
